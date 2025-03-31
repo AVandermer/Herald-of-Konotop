@@ -2,8 +2,8 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 
 
 main_keyboard = [
-    [KeyboardButton(text="btn1")],
-    [KeyboardButton(text="btn2")],
-    [KeyboardButton(text="btn3"), KeyboardButton(text="btn4")],
+    [KeyboardButton(text="Weather report")],
+    [KeyboardButton(text="Air Raid ")],
+    [KeyboardButton(text="Donation"), KeyboardButton(text="About")],
 ]
 main = ReplyKeyboardMarkup(resize_keyboard=True, keyboard=main_keyboard)
